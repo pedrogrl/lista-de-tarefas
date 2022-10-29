@@ -85,8 +85,11 @@ div.tarefa-icone{
   display: flex;
   align-items: center;
   justify-content: center;
-}/* Ícone marcado */
-.icone-marcado{
+}
+div.tarefa-icone i{
+  font-size: 28px;
+} /* Ícone marcado */
+div.tarefa.marcado i{
   color: rgb(101, 183, 101);
 }
 /* Texto Tarefa */
@@ -112,4 +115,11 @@ button.btn-delete{
   height: 100%;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+/* Tirar Select Textos */
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
